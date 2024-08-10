@@ -13,3 +13,7 @@ let student = {
 }
 
 student.getInfo()
+
+let arr = ['apple', 'oranges' , ' ', 'mango', ' ' , 'lemon']
+
+console.log(arr.map((elm)=> elm.trim()===''? 'empty string': elm))
